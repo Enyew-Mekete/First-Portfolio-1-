@@ -1,0 +1,61 @@
+    body {
+        font-family: "Lato", sans-serif;
+    }
+
+    .sidebar {
+        height: 500px;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: teal;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 10px;
+        margin-top: 7%;
+    }
+
+    .sidebar a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+        margin-left: 7%;
+        padding-top: 15px;
+    }
+
+    .sidebar a:hover {
+        color: white;
+        background-color: dodgerblue;
+        border: none;
+        width: 88px;
+        height: 60px;    }
+
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .main-content {
+        transition: margin-left .5s;
+        padding: 16px;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: teal;
+        color: white;
+        padding: 10px 10px;
+        border: none;
+    }
+
+    .openbtn:hover {
+        background-color: dodgerblue;
+    }
