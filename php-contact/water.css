@@ -1,0 +1,63 @@
+.bbb{
+    margin-left: 17%;
+}
+.b{
+margin-left:17%;
+text-decoration:none; 
+color:dodgerblue;
+font-size:20px;
+font-weight: bold;
+}
+input{
+    border: none;
+    border-radius:7%;
+    width:290px; ;
+    height:40px;
+    background-color: aliceblue;
+}
+textarea{
+    border: none;
+    border-radius:2%;
+    width:570px; ;
+    height:110px;
+    background-color: aliceblue;
+}
+
+.send{
+background-color: dodgerblue; 
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 25px;
+font-size: 20px;
+font-weight:bold ;
+width: 270px;
+height: 50px;
+margin-left: 5%;
+}
+.error {
+    background: #E99A9A;
+    color: #C80000;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.success {
+    background: #97E8A9;
+    color: #00C82C;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+/*.Clear{
+background-color: dodgerblue; 
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 25px;
+font-size: 20px;
+font-weight:bold ;
+width: 200px;
+height: 50px;
+margin-left: 7%;
+}*/
